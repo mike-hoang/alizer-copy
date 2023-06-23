@@ -1,0 +1,1277 @@
+[
+    {
+        "directory": "translate-example-func",
+        "components": [
+            {
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }        
+                ],
+                "name": "event-handler"
+            },
+            {
+                "name": "viewer",
+                "languages": [
+                    {
+                        "name": "Go",
+                        "frameworks": [],
+                        "tools": [
+                            "1.14"
+                        ]
+                    }      
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "beego-example",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Go",
+                        "frameworks": [
+                            "Beego"
+                        ],
+                        "tools": [
+                            "1.14"
+                        ]
+                    }  
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "fasthttpd",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Go",
+                        "frameworks": [
+                            "FastHttp"
+                        ],
+                        "tools": [
+                            "1.18"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "gin-example",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Go",
+                        "frameworks": [
+                            "Gin"
+                        ],
+                        "tools": [
+                            "1.19"
+                        ]
+                    }
+                ],
+                "Ports": null
+            }
+        ]
+    },
+    {
+        "directory": "fiber-grpc",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Go",
+                        "frameworks": [
+                            "GoFiber"
+                        ],
+                        "tools": [
+                            "1.15"
+                        ]
+                    }
+                ],
+                "ports": [
+                    3000
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "go-mux-api",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Go",
+                        "frameworks": [
+                            "Mux"
+                        ],
+                        "tools": [
+                            "1.16"
+                        ]
+                    }
+                ],
+                "ports": [
+                    8000
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "hypershift",
+        "components": [
+            {
+                "Name": "hypershift",
+                "Languages": [
+                    {
+                        "Name": "Go",
+                        "Aliases": [
+                            "golang"
+                        ],
+                        "Weight": 100,
+                        "Frameworks": [
+                            "Mux"
+                        ],
+                        "Tools": [
+                            "1.18"
+                        ],
+                        "CanBeComponent": true
+                    }
+                ],
+                "Ports": [
+                    9090,
+                    8080
+                ]
+            },
+            {
+                "Name": "docs",
+                "Languages": [
+                    {
+                        "Name": "Python",
+                        "Aliases": [
+                            "python3",
+                            "rusthon"
+                        ],
+                        "Weight": 100,
+                        "Frameworks": [],
+                        "Tools": [],
+                        "CanBeComponent": true
+                    }
+                ],
+                "Ports": null
+            },
+            {
+                "Name": "tools",
+                "Languages": [
+                    {
+                        "Name": "Go",
+                        "Aliases": [
+                            "golang"
+                        ],
+                        "Weight": 100,
+                        "Frameworks": [],
+                        "Tools": [
+                            "1.17"
+                        ],
+                        "CanBeComponent": true
+                    }
+                ],
+                "Ports": null
+            }
+        ]
+    },    
+    {
+        "directory": "jhipster-sample-app-micronaut",
+        "components": [
+            {
+                "name": "jhipster-sample-application",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Micronaut"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "jhipster-sample-application",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [
+                            "Angular"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "sample-getting-started",
+        "components": [
+            {
+                "name": "io.openliberty.sample.getting.started",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "OpenLiberty"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "mailer-quickstart",
+        "components": [
+            {
+                "name": "mailer-quickstart",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Quarkus"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "spring-petclinic",
+        "components": [
+            {
+                "name": "spring-petclinic",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "vertx-guide-for-java-devs",
+        "components": [
+            {
+                "name": "wiki-step-1",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Vertx"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "angular-example-app",
+        "components": [
+            {
+                "name": "angular-example-app",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [
+                            "Angular",
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "@ismaestro/ngx-example-library",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [
+                            "Angular"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "node-express-mongoose-demo",
+        "components": [
+            {
+                "name": "nodejs-express-mongoose-demo",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "example-intergration",
+        "components": [
+            {
+                "name": "vercel-example-integration",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Next"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "example-auth0",
+        "components": [
+            {
+                "name": "nuxt-auth0",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Nuxt"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "react-sample",
+        "components": [
+            {
+                "name": "react_sample",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [
+                            "React"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "svelte-example",
+        "components": [
+            {
+                "name": "svelte-template",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [
+                            "Express",
+                            "Svelte"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "vue-realworld-example-app",
+        "components": [
+            {
+                "name": "realworld-vue",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Vue"
+                        ],
+                        "tools": [
+                            "NodeJs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "django-ex",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Python",
+                        "frameworks": [
+                            "Django"
+                        ],
+                        "tools": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "pipelines-vote-ui",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Python",
+                        "frameworks": [
+                            "Flask"
+                        ],
+                        "tools": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "mbmlbook",
+        "components": [
+            {
+                "name": "mbmlbook",
+                "languages": [
+                    {
+                        "name": "C#",
+                        "frameworks": [
+                            "net461"
+                        ],
+                        "tools": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "golang-echo-realworld-example-app",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Go",
+                        "frameworks": [
+                            "Echo"
+                        ],
+                        "tools": [
+                            "1.18"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "webshop",
+        "components": [
+            {
+                "name": "order-app",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ],
+                "ports": [
+                    15000
+                ]
+            },
+            {
+                "name": "payment-app",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ],
+                "ports": [
+                    15001
+                ]
+            },
+            {
+                "name": "stock-app",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ],
+                "ports": [
+                    15002
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "spring-boot-data-jpa-mysql",
+        "components": [
+            {
+                "name": "spring-boot-data-jpa",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "urgent-care-finder-v2",
+        "components": [
+            {
+                "name": "nextjs",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Next",
+                            "Next.js",
+                            "React"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "object-detection-rest",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Python",
+                        "frameworks": [],
+                        "tools": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "spring-boot-realworld-example-app",
+        "components": [
+            {
+                "name": "ignore",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Gradle"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "gs-batch-processing",
+        "components": [
+            {
+                "name": "batch-processing-complete",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Gradle"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "batch-processing-initial",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Gradle"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "patternfly-react-seed",
+        "components": [
+            {
+                "name": "patternfly-seed",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [
+                            "React"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "s2i-nodejs",
+        "components": [
+            {
+                "name": "s2i-nodejs",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "opossum-examples",
+        "components": [
+            {
+                "name": "angular",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [
+                            "Angular"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "opossum-angular",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ],
+                "ports": [
+                    3000
+                ]
+            },
+            {
+                "name": "ember-opossum",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "ember-opossum",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "opossum-browser-example",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "database-timeout",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ],
+                "ports": [
+                    3000
+                ]
+            },
+            {
+                "name": "multiple-express",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ],
+                "ports": [
+                    8080
+                ]
+            },
+            {
+                "name": "typescript-example",
+                "languages": [
+                    {
+                        "name": "TypeScript",
+                        "frameworks": [ ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "express-prometheus-minishift",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "opossum-react-client",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "React"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ],
+                "ports": [
+                    8000
+                ]
+            },
+            {
+                "name": "opossum-react",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ],
+                "ports": [
+                    3000
+                ]
+            },
+            {
+                "name": "opossum-browser-example",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "svelte-app",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Svelte"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "opossum-svelte",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ],
+                "ports": [
+                    3000
+                ]
+            },
+            {
+                "name": "opossum-vue-client",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Vue"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "opossum-vue",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ],
+                "ports": [
+                    3000
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "nodejs-rest-http",
+        "components": [
+            {
+                "name": "nodejs-rest-http",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "nodejs-circuit-breaker",
+        "components": [
+            {
+                "name": "nodejs-circuit-breaker-greeting",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "nodejs-circuit-breaker-name",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "reactive-example",
+        "components": [
+            {
+                "name": "consumer-backend",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "frontend",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "producer-backend",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "nodejs-health-check",
+        "components": [
+            {
+                "name": "nodejs-health-check",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "quarkus-todo",
+        "components": [
+            {
+                "name": "quarkus-todo",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [ 
+                            "Quarkus"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "resources",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Vue"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "northwind-traders",
+        "components": [
+            {
+                "name": "mail",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [ 
+                            "Micronaut"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "northwind",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [ 
+                            "Quarkus"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "order-faker",
+                "languages": [
+                    {
+                        "name": "Java",
+                        "frameworks": [ 
+                            "Spring"
+                        ],
+                        "tools": [
+                            "Maven"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "nodejs-configmap",
+        "components": [
+            {
+                "name": "nodejs-configmap",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "nodejs-messaging-work-queue",
+        "components": [
+            {
+                "name": "nodejs-messaging-work-queue-frontend",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "nodejs-messaging-work-queue-worker",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "directory": "nodejs-cache",
+        "components": [
+            {
+                "name": "nodejs-cache-cute-name",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "nodejs-cache-greeting",
+                "languages": [
+                    {
+                        "name": "JavaScript",
+                        "frameworks": [ 
+                            "Express"
+                        ],
+                        "tools": [
+                            "NodeJs",
+                            "Node.js"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
