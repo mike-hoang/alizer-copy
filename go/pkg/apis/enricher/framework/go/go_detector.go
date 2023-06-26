@@ -18,8 +18,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
-	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
+	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
+	"github.com/thepetk/alizer-copy/go/pkg/utils"
 	"golang.org/x/mod/modfile"
 )
 

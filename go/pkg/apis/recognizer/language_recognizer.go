@@ -18,10 +18,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mike-hoang/alizer-copy/go/pkg/apis/enricher"
-	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
-	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
-	langfile "github.com/mike-hoang/alizer-copy/go/pkg/utils/langfiles"
+	"github.com/thepetk/alizer-copy/go/pkg/apis/enricher"
+	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
+	"github.com/thepetk/alizer-copy/go/pkg/utils"
+	langfile "github.com/thepetk/alizer-copy/go/pkg/utils/langfiles"
 )
 
 type languageItem struct {

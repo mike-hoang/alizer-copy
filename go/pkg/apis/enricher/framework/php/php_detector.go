@@ -11,7 +11,7 @@
 
 package enricher
 
-import "github.com/mike-hoang/alizer-copy/go/pkg/utils"
+import "github.com/thepetk/alizer-copy/go/pkg/utils"
 
 // hasFramework uses the composer.json to check for framework
 func hasFramework(configFile string, tag string) bool {

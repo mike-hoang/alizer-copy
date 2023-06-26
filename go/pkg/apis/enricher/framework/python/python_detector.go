@@ -12,7 +12,7 @@
 package enricher
 
 import (
-	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
+	"github.com/thepetk/alizer-copy/go/pkg/utils"
 )
 
 // hasFramework uses all files to check for framework

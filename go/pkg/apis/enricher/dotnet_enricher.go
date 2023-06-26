@@ -13,9 +13,9 @@ package enricher
 import (
 	"context"
 
-	framework "github.com/mike-hoang/alizer-copy/go/pkg/apis/enricher/framework/dotnet"
-	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
-	utils "github.com/mike-hoang/alizer-copy/go/pkg/utils"
+	framework "github.com/thepetk/alizer-copy/go/pkg/apis/enricher/framework/dotnet"
+	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
+	utils "github.com/thepetk/alizer-copy/go/pkg/utils"
 )
 
 type DotNetEnricher struct{}

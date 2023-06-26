@@ -16,9 +16,9 @@ import (
 	"errors"
 	"io/ioutil"
 
-	framework "github.com/mike-hoang/alizer-copy/go/pkg/apis/enricher/framework/go"
-	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
-	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
+	framework "github.com/thepetk/alizer-copy/go/pkg/apis/enricher/framework/go"
+	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
+	"github.com/thepetk/alizer-copy/go/pkg/utils"
 	"golang.org/x/mod/modfile"
 )
 

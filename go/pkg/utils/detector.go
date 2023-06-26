@@ -26,11 +26,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mike-hoang/alizer-copy/go/pkg/utils/langfiles"
+	"github.com/thepetk/alizer-copy/go/pkg/utils/langfiles"
 
-	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
-	"github.com/mike-hoang/alizer-copy/go/pkg/schema"
 	ignore "github.com/sabhiram/go-gitignore"
+	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
+	"github.com/thepetk/alizer-copy/go/pkg/schema"
 )
 
 const FROM_PORT = 0
