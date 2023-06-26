@@ -15,8 +15,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
 	"gopkg.in/yaml.v3"
 )
 

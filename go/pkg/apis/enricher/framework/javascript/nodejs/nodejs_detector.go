@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/thepetk/alizer-copy/go/pkg/schema"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
+	"github.com/mike-hoang/alizer-copy/go/pkg/schema"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
 )
 
 type packageScriptFunc func(schema.PackageJson) string

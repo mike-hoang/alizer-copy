@@ -18,9 +18,9 @@ import (
 	"regexp"
 	"strings"
 
-	framework "github.com/thepetk/alizer-copy/go/pkg/apis/enricher/framework/java"
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
+	framework "github.com/mike-hoang/alizer-copy/go/pkg/apis/enricher/framework/java"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
 )
 
 type JavaEnricher struct{}

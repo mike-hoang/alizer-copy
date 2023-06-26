@@ -1,4 +1,4 @@
-module github.com/thepetk/alizer-copy/go
+module github.com/mike-hoang/alizer-copy/go
 
 go 1.19
 

@@ -2,9 +2,9 @@ package utils
 
 import (
 	"context"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/schema"
 	"github.com/stretchr/testify/assert"
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
-	"github.com/thepetk/alizer-copy/go/pkg/schema"
 	"os"
 	"path/filepath"
 	"regexp"

@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/thepetk/alizer-copy/go/pkg/cli"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
+	"github.com/mike-hoang/alizer-copy/go/pkg/cli"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
 )
 
 func main() {

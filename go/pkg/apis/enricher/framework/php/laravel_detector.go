@@ -13,7 +13,7 @@ package enricher
 
 import (
 	"context"
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
 )
 
 type LaravelDetector struct{}

@@ -27,10 +27,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils/langfiles"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
-	"github.com/thepetk/alizer-copy/go/pkg/utils/langfiles"
 	"gopkg.in/yaml.v3"
 )
 

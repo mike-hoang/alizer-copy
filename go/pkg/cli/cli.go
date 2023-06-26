@@ -5,12 +5,12 @@ import (
 	"flag"
 	"fmt"
 
+	"github.com/mike-hoang/alizer-copy/go/pkg/cli/analyze"
+	"github.com/mike-hoang/alizer-copy/go/pkg/cli/component"
+	"github.com/mike-hoang/alizer-copy/go/pkg/cli/devfile"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
-	"github.com/thepetk/alizer-copy/go/pkg/cli/analyze"
-	"github.com/thepetk/alizer-copy/go/pkg/cli/component"
-	"github.com/thepetk/alizer-copy/go/pkg/cli/devfile"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
 )
 
 var (

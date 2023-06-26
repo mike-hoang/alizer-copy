@@ -1,10 +1,10 @@
 package component
 
 import (
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/recognizer"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
 	"github.com/spf13/cobra"
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
-	"github.com/thepetk/alizer-copy/go/pkg/apis/recognizer"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
 )
 
 var (

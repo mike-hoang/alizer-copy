@@ -21,8 +21,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
-	"github.com/thepetk/alizer-copy/go/pkg/utils"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/utils"
 )
 
 func SelectDevFilesFromTypes(path string, devFileTypes []model.DevFileType) ([]int, error) {

@@ -16,7 +16,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/thepetk/alizer-copy/go/pkg/schema"
+	"github.com/mike-hoang/alizer-copy/go/pkg/schema"
 	"gopkg.in/yaml.v3"
 )
 

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/thepetk/alizer-copy/go/pkg/apis/model"
-	"github.com/thepetk/alizer-copy/go/pkg/apis/recognizer"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/model"
+	"github.com/mike-hoang/alizer-copy/go/pkg/apis/recognizer"
 )
 
 func TestAnalyzeOnMicronaut(t *testing.T) {
