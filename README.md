@@ -64,7 +64,7 @@ $ go build alizer.go
 To analyze your source code with Alizer, just import it and use the recognizer:
 
 ```go
-import "github.com/redhat-developer/alizer/pkg/apis/recognizer"
+import "github.com/devfile/alizer/pkg/apis/recognizer"
 
 languages, err := recognizer.Analyze("your/project/path")
 ```
@@ -79,7 +79,7 @@ It detects all components which are found in the source tree where each componen
 - _Ports_: list of ports used by the component
 
 ```go
-import "github.com/redhat-developer/alizer/pkg/apis/recognizer"
+import "github.com/devfile/alizer/pkg/apis/recognizer"
 
 components, err := recognizer.DetectComponents("your/project/path")
 ```
@@ -93,7 +93,7 @@ For more info about port detection, see the [port detection](docs/public/port_de
 It selects a devfile from a list of devfiles (from a devfile registry or other storage) based on the information found in the source tree.
 
 ```go
-import "github.com/redhat-developer/alizer/pkg/apis/recognizer"
+import "github.com/devfile/alizer/pkg/apis/recognizer"
 
 devfile, err := recognizer.SelectDevFileFromTypes("your/project/path", devfiles)
 ```
